@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects | Christer John</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">CJ💖<span>.</span></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html" class="active">Projects</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="galerry.html">Gallery</a>
+        <a href="contacr.html">Contact</a>
+        <button id="darkModeBtn" onclick="toggleDarkMode()">
+    Dark Mode🌛
+</button>
+    </nav>
+</header>
+
+<main class="page">
+    <div class="page-heading">
+        <p class="eyebrow">MY WORK</p>
+        <h1>Featured <span>Projects</span></h1>
+    </div>
+
+    <div class="project-grid">
+        <article class="project-card">
+            <img src="c:\Users\ADMIN\Downloads\bo.jpg">
+            <div class="project-content">
+                <small>01 / WEB DEVELOPMENT</small>
+                <h2>Personal Website</h2>
+                <p>A multi-page portfolio website built with HTML and CSS.</p>
+                <a href="website-project.html">View Project →</a>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <img src="c:\Users\ADMIN\Downloads\bai.jpg">
+            <div class="project-content">
+                <small>02 / PROGRAMMING</small>
+                <h2>Java Programming</h2>
+                <p>Programming activities focused on Java and object-oriented concepts.</p>
+                <a href="java-project.html">View Project →</a>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <img src="c:\Users\ADMIN\Downloads\bi.jpg">
+            <div class="project-content">
+                <small>03 / DATABASE</small>
+                <h2>MySQL Database</h2>
+                <p>Database activities involving tables, queries, and normalization.</p>
+                <a href="database-project.html">View Project →</a>
+            </div>
+        </article>
+    </div>
+</main>
+<footer>© 2026 Christer John Masangcay. All rights reserved.</footer>
+<script>
+    function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+
+        const button = document.getElementById("darkModeBtn");
+
+        if (document.body.classList.contains("dark-mode")) {
+            button.textContent = "Light Mode🌞";
+        } else {
+            button.textContent = "Dark Mode🌛";
+        }
+    }
+</script>
+</body>
+</html>

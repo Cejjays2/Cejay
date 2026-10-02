@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Christer John | Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">CJ💖<span>.</span></div>
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Projects</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="galerry.html">Gallery</a>
+        <a href="contacr.html">Contact</a>
+        <button id="darkModeBtn" onclick="toggleDarkMode()">
+    Dark Mode🌛
+</button>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <p class="eyebrow">PERSONAL PORTFOLIO</p>
+        <h1>Hello, I'm <span>Christer John</span></h1>
+        <p class="intro">A Computer Science student who enjoys creating websites, learning programming, and exploring new technologies And Studied Cybersecurity So I Also Have knowledge In Cybersecurity. </p>
+        <div class="hero-buttons">
+            <a href="portfolio.html" class="main-btn">Explore My Work</a>
+            <a href="about.html" class="outline-btn">About Me</a>
+        </div>
+    </div>
+    <div class="hero-card">
+        <div class="photo-frame">
+          
+           <div class="photo-frame">
+
+    <img src="c:\Users\ADMIN\Downloads\86723315-b3a5-4794-a967-8180e6707236.jpg"
+         class="profile-pic one"
+         alt="Profile Picture">
+
+    <img src="c:\Users\ADMIN\Downloads\9308ef96-b41d-4a80-a095-c0cdb65667be.jpg"
+         class="profile-pic two"
+         alt="Profile Picture 2">
+
+</div>
+        </div>
+        <h3>Christer John Masangcay</h3>
+        <p>Computer Science Student</p>
+    </div>
+</section>
+
+<section class="quick-section">
+    <div class="quick-card"><strong>03+</strong><span>Featured Projects</span></div>
+    <div class="quick-card"><strong>10+</strong><span>Achievements</span></div>
+    <div class="quick-card"><strong>14+</strong><span>Skills</span></div>
+</section>
+
+<footer>© 2026 Christer John Masangcay. All rights reserved.</footer>
+
+<script>
+    function toggleDarkMode() {
+        document.body.classList.toggle("dark-mode");
+
+        const button = document.getElementById("darkModeBtn");
+
+        if (document.body.classList.contains("dark-mode")) {
+            button.textContent = "Light Mode🌞";
+        } else {
+            button.textContent = "Dark Mode🌛";
+        }
+    }
+</script>
+</body>
+</html>
