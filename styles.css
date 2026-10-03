@@ -844,3 +844,53 @@ body.dark-mode .profile-pic.two {
     width: 700px !important;
     height: 70px !important;
 }
+
+
+body.dark-mode .hero-card {
+    background: #000000;
+    border-color: #222222;
+    box-shadow: 12px 12px 0 #d56a3a;
+    color: white;
+}
+
+body.dark-mode .hero-card h3 {
+    color: white;
+}
+
+body.dark-mode .hero-card p,
+body.dark-mode .hero-card h6 {
+    color: #cccccc;
+}
+
+body.dark-mode .photo-frame {
+    background: #000000;
+}
+
+.photo-frame {
+    cursor: pointer;
+}
+
+.photo-frame .profile-pic {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.photo-frame .profile-pic.one {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.photo-frame .profile-pic.two {
+    opacity: 0;
+    transform: scale(1.05);
+}
+
+.photo-frame:hover .profile-pic.one {
+    opacity: 0;
+}
+
+.photo-frame:hover .profile-pic.two {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
