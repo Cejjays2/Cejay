@@ -866,31 +866,3 @@ body.dark-mode .photo-frame {
     background: #000000;
 }
 
-.photo-frame {
-    cursor: pointer;
-}
-
-.photo-frame .profile-pic {
-    transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.photo-frame .profile-pic.one {
-    opacity: 1;
-    transform: scale(1);
-}
-
-.photo-frame .profile-pic.two {
-    opacity: 0;
-    transform: scale(1.05);
-}
-
-.photo-frame:hover .profile-pic.one {
-    opacity: 0;
-}
-
-.photo-frame:hover .profile-pic.two {
-    opacity: 1;
-    transform: scale(1);
-}
-
-
