@@ -841,6 +841,6 @@ body.dark-mode .profile-pic.two {
 .music-player audio {
     display: inline-block !important;
     margin: 0 auto !important;
-    width: 1000px !important;
-
+    width: 700px !important;
+    height: 70px !important;
 }
