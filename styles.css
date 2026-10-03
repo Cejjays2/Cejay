@@ -833,13 +833,14 @@ body.dark-mode .profile-pic.two {
 }
 
 .music-player {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
+    width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    text-align: center !important;
+    margin: 20px 0 !important;
 }
 
 .music-player audio {
-    width: 350px;
+    display: inline-block !important;
 }
