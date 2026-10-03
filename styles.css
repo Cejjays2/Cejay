@@ -831,3 +831,15 @@ body.dark-mode .profile-pic.one,
 body.dark-mode .profile-pic.two {
     filter: brightness(70%);
 }
+
+.music-player {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.music-player audio {
+    width: 350px;
+}
