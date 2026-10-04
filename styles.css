@@ -904,8 +904,8 @@ body.dark-mode .photo-frame {
     background: #000000;
 }
 .galerry video {
-    display: block;
-    margin: 30px auto;
-    width: 800px;
-    max-width: 90%;
+    display: block !important;
+    width: 300px !important;
+    height: auto !important;
+    margin: 30px auto !important;
 }
