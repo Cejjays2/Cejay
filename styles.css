@@ -903,14 +903,3 @@ body.dark-mode .hero-card h6 {
 body.dark-mode .photo-frame {
     background: #000000;
 }
-.galerry {
-    width: 100% !important;
-}
-
-.galerry video {
-    display: block !important;
-    width: 300px !important;
-    height: auto !important;
-    margin: 30px auto !important;
-    float: none !important;
-}
